@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Kumbh Sans;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.mainContainer {
+  height: 100vh;
+  background: url("../images/bg-pattern-top.svg") 0% 150% no-repeat, url("../images/bg-pattern-bottom.svg") 200% -70% no-repeat;
+  background-color: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 380px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 20px #6a6f81;
+          box-shadow: 0 0 20px #6a6f81;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.darkGray {
+  color: #969696;
+}
+
+.bgCardPattern {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.avatarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  margin-top: -48px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.userNameAndLocation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px auto;
+}
+
+.profileStats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  border-top: 1px solid #d6d6d6;
+}
+
+.stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.longLetterSpacing {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

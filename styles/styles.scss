@@ -1,0 +1,83 @@
+@import 'colors';
+@import 'media-queries';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Kumbh Sans;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.mainContainer {
+  height: 100vh;
+  background: url('../images/bg-pattern-top.svg') 0% 150% no-repeat, url('../images/bg-pattern-bottom.svg') 200% -70% no-repeat;
+  background-color: $darkCyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 380px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px $darkGrayishBlue;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.darkGray {
+  color: $darkGray;
+}
+
+.bgCardPattern {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  margin-top: -48px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.userNameAndLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px auto;
+}
+
+.profileStats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 1px solid rgb(214, 214, 214);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.longLetterSpacing {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
